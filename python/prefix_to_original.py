@@ -8,5 +8,4 @@ if __name__ == "__main__":
         t = arr[i]-cur
         cur = arr[i]
         arr[i] = t
-    arr[0] = 0
     print(arr)

@@ -76,7 +76,7 @@
         "kind": 5,
         "importPath": "python.prefix_to_original",
         "description": "python.prefix_to_original",
-        "peekOfCode": "arr = [0, 1, 3, 6, 10, 15]\nif __name__ == \"__main__\":\n    cur = arr[0]\n    for i in range(1,len(arr)):\n        t = arr[i]-cur\n        cur = arr[i]\n        arr[i] = t\n    arr[0] = 0\n    print(arr)",
+        "peekOfCode": "arr = [0, 1, 3, 6, 10, 15]\nif __name__ == \"__main__\":\n    cur = arr[0]\n    for i in range(1,len(arr)):\n        t = arr[i]-cur\n        cur = arr[i]\n        arr[i] = t\n    print(arr)",
         "detail": "python.prefix_to_original",
         "documentation": {}
     },
