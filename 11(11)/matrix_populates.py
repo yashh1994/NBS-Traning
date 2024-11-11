@@ -29,9 +29,17 @@ def fill_matrix(flag,n,m):
             matrix[i][j] = i*len(matrix[0]) + j + 1 if flag=="h" else j*len(matrix)+i+1
     return matrix
 
-result = fill_matrix(flag="v",n=3,m=4)
-for row in result:
-    print(row)
+# result = fill_matrix(flag="v",n=3,m=4)
+# for row in result:
+# #     print(row)
+
+# print(pow(17,76)*17)
+# print(type(pow(17,77)))
 
 
 
+cur = 1
+ans = 1
+for i in range(77):
+    cur = (cur*17)%35
+print(cur)
