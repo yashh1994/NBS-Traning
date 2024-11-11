@@ -45,6 +45,96 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "21_23__10.close_a_b",
+        "description": "21_23__10.close_a_b",
+        "peekOfCode": "a = 1\nb = 1\nans_a = -1\nans_b = -1\nans = 1000\nwhile a<=1000 and b <= 1000:\n    if ans > abs(pow(2, a)-pow(10,b))/pow(10,b)*100:\n        ans = abs(pow(2, a)-pow(10,b))/pow(10,b)*100\n        ans_a = a\n        ans_b = b",
+        "detail": "21_23__10.close_a_b",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "21_23__10.close_a_b",
+        "description": "21_23__10.close_a_b",
+        "peekOfCode": "b = 1\nans_a = -1\nans_b = -1\nans = 1000\nwhile a<=1000 and b <= 1000:\n    if ans > abs(pow(2, a)-pow(10,b))/pow(10,b)*100:\n        ans = abs(pow(2, a)-pow(10,b))/pow(10,b)*100\n        ans_a = a\n        ans_b = b\n    if pow(2,a) < pow(10,b):",
+        "detail": "21_23__10.close_a_b",
+        "documentation": {}
+    },
+    {
+        "label": "ans_a",
+        "kind": 5,
+        "importPath": "21_23__10.close_a_b",
+        "description": "21_23__10.close_a_b",
+        "peekOfCode": "ans_a = -1\nans_b = -1\nans = 1000\nwhile a<=1000 and b <= 1000:\n    if ans > abs(pow(2, a)-pow(10,b))/pow(10,b)*100:\n        ans = abs(pow(2, a)-pow(10,b))/pow(10,b)*100\n        ans_a = a\n        ans_b = b\n    if pow(2,a) < pow(10,b):\n        a += 1",
+        "detail": "21_23__10.close_a_b",
+        "documentation": {}
+    },
+    {
+        "label": "ans_b",
+        "kind": 5,
+        "importPath": "21_23__10.close_a_b",
+        "description": "21_23__10.close_a_b",
+        "peekOfCode": "ans_b = -1\nans = 1000\nwhile a<=1000 and b <= 1000:\n    if ans > abs(pow(2, a)-pow(10,b))/pow(10,b)*100:\n        ans = abs(pow(2, a)-pow(10,b))/pow(10,b)*100\n        ans_a = a\n        ans_b = b\n    if pow(2,a) < pow(10,b):\n        a += 1\n    else:",
+        "detail": "21_23__10.close_a_b",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "21_23__10.close_a_b",
+        "description": "21_23__10.close_a_b",
+        "peekOfCode": "ans = 1000\nwhile a<=1000 and b <= 1000:\n    if ans > abs(pow(2, a)-pow(10,b))/pow(10,b)*100:\n        ans = abs(pow(2, a)-pow(10,b))/pow(10,b)*100\n        ans_a = a\n        ans_b = b\n    if pow(2,a) < pow(10,b):\n        a += 1\n    else:\n        b += 1",
+        "detail": "21_23__10.close_a_b",
+        "documentation": {}
+    },
+    {
+        "label": "ar",
+        "kind": 5,
+        "importPath": "21_23__10.mode_sort_array",
+        "description": "21_23__10.mode_sort_array",
+        "peekOfCode": "ar = [1,1,1,2,2,2,2,3,4,5,5,5]\nar.sort()\ncount = 1\nmax_count = 0\nli = []\ncurrent_val = ar[0]\nfor i in range(1, len(ar)):\n    if ar[i] == ar[i-1]:\n        count += 1\n    if count > max_count:",
+        "detail": "21_23__10.mode_sort_array",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "21_23__10.mode_sort_array",
+        "description": "21_23__10.mode_sort_array",
+        "peekOfCode": "count = 1\nmax_count = 0\nli = []\ncurrent_val = ar[0]\nfor i in range(1, len(ar)):\n    if ar[i] == ar[i-1]:\n        count += 1\n    if count > max_count:\n        max_count = count\n        li = [ar[i]]",
+        "detail": "21_23__10.mode_sort_array",
+        "documentation": {}
+    },
+    {
+        "label": "max_count",
+        "kind": 5,
+        "importPath": "21_23__10.mode_sort_array",
+        "description": "21_23__10.mode_sort_array",
+        "peekOfCode": "max_count = 0\nli = []\ncurrent_val = ar[0]\nfor i in range(1, len(ar)):\n    if ar[i] == ar[i-1]:\n        count += 1\n    if count > max_count:\n        max_count = count\n        li = [ar[i]]\n    elif count == max_count:",
+        "detail": "21_23__10.mode_sort_array",
+        "documentation": {}
+    },
+    {
+        "label": "li",
+        "kind": 5,
+        "importPath": "21_23__10.mode_sort_array",
+        "description": "21_23__10.mode_sort_array",
+        "peekOfCode": "li = []\ncurrent_val = ar[0]\nfor i in range(1, len(ar)):\n    if ar[i] == ar[i-1]:\n        count += 1\n    if count > max_count:\n        max_count = count\n        li = [ar[i]]\n    elif count == max_count:\n        li.append(ar[i-1])",
+        "detail": "21_23__10.mode_sort_array",
+        "documentation": {}
+    },
+    {
+        "label": "current_val",
+        "kind": 5,
+        "importPath": "21_23__10.mode_sort_array",
+        "description": "21_23__10.mode_sort_array",
+        "peekOfCode": "current_val = ar[0]\nfor i in range(1, len(ar)):\n    if ar[i] == ar[i-1]:\n        count += 1\n    if count > max_count:\n        max_count = count\n        li = [ar[i]]\n    elif count == max_count:\n        li.append(ar[i-1])\n    if ar[i] != ar[i-1]:",
+        "detail": "21_23__10.mode_sort_array",
+        "documentation": {}
+    },
+    {
         "label": "arrayManipulation",
         "kind": 2,
         "importPath": "python.array_manipulation",
