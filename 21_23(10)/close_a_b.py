@@ -1,16 +1,24 @@
+num1 = 17
+num2 = 10
+
+limit1 = 77
+limit2 = 1000
+
 a = 1
 b = 1
 ans_a = -1
 ans_b = -1
 ans = 1000
-while a<=1000 and b <= 1000:
-    if ans > abs(pow(2, a)-pow(10,b))/pow(10,b)*100:
-        ans = abs(pow(2, a)-pow(10,b))/pow(10,b)*100
+while a<=limit1 and b <= limit2:
+    if ans > abs(pow(num1, a)-pow(num2,b))/pow(num2,b)*100:
+        ans = abs(pow(num1, a)-pow(num2,b))/pow(num2,b)*100
         ans_a = a
         ans_b = b
-    if pow(2,a) < pow(10,b):
+    if pow(num1,a) < pow(num2,b):
         a += 1
     else:
         b += 1
-print(f"The Closest Diff is {ans} and value of a is {ans_a} and b is {ans_b}")
-print(f"a is {pow(2,ans_a)} b is {pow(10,ans_b)}")
+        
+print(f"For the Nums: {num1} With {ans_a}, {num2} With {ans_b}")
+print(f"The Closest Diff is {ans}")
+print(f"a is {pow(num1,ans_a)} b is {pow(num2,ans_b)}")
