@@ -1,0 +1,22 @@
+import math
+limit = 2000
+
+num2 = 2
+num10 = 10
+ctn10 = 1
+ctn2 = 1
+
+li = []
+
+while ctn2 <= limit:
+  li.append((abs(num10-num2)/min(num2,num10)*100,ctn2,ctn10))
+  if num2 > num10:
+    num10 *= 10
+    ctn10 += 1
+  else:
+    num2 *= 2
+    ctn2 += 1
+li.sort()
+for i in li[:100]:
+  print(i) 
+# print(li[:100])
